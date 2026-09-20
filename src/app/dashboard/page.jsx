@@ -1,18 +1,20 @@
 import React from 'react';
 import Counter from '../components/Counter';
 
-const Dashboardpage = () => {
-  console.log('Dashboard page render');
+const DashboardPage = () => {
+  console.log('Dashboard page rendered');
   return (
     <div>
-      <h1>Dashboard page</h1>
+      <h2>Dashboard Page</h2>
+
       <Counter></Counter>
-      <li>Dashboadr 1</li>
-      <li>Dashboadr 2</li>
-      <li>Dashboadr 3</li>
-      <li>Dashboadr 4</li>
+      <ul>
+        <li>Dashboard item 1</li>
+        <li>Dashboard item 21</li>
+        <li>Dashboard item 3</li>
+      </ul>
     </div>
   );
 };
 
-export default Dashboardpage;
+export default DashboardPage;
