@@ -11,6 +11,10 @@ const foodPromise = async () => {
   return foods;
 };
 
+
+
+
+
 const FoodPage = () => {
   return (
     <div>
